@@ -1,0 +1,10 @@
+<div>
+      {alertVisible && (
+        <Alert onClose={() => alertVisability(false)}>This is an alert</Alert>
+      )}
+      <Button
+        color="dark"
+        children="Cool Button"
+        onClick={() => alertVisability(true)}
+      ></Button>
+    </div>
